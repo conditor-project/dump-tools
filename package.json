@@ -1,0 +1,27 @@
+{
+  "name": "dump-tools",
+  "version": "1.0.0",
+  "description": "Tools for Conditor snapshot/restore Elasticsearch data using elasticdump",
+  "main": "make-es-dump.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conditor-project/dump-tools.git"
+  },
+  "keywords": [
+    "dump",
+    "elasticsearch",
+    "conditor"
+  ],
+  "author": "claude.niederlender@inist.fr",
+  "license": "SEE LICENSE IN License.en.txt",
+  "bugs": {
+    "url": "https://github.com/conditor-project/dump-tools/issues"
+  },
+  "homepage": "https://github.com/conditor-project/dump-tools#readme",
+  "dependencies": {
+    "elasticdump": "^6.2.2"
+  }
+}
